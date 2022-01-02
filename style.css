@@ -25,8 +25,15 @@ body{
 }
 
 .name{                                         /* selecting div with class "name" and adding styling to it */
-    font-size: 3rem; 
+    font-size: 4rem;
+    font-family: 'Licorice', cursive;
+
 }
+.about{
+    fontsize: 3rem;
+    font-family: 'Luxurious Roman', cursive;
+}
+
 
 .intro p{                                      /* selecting div with class "intro" then navigating to p tag inside it, and adding styling to it */
     font-size: 2rem;
