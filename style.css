@@ -1,5 +1,5 @@
 body{
-    background-image: url(..//images/bg-image.jpg)
+    background-image: url(images/bg-image.jpg)
 }
 
 #container{                     
@@ -136,7 +136,7 @@ ul.socialicons{
 }
 
 a.tab-profile.active{
-    background: url(..//img/tab-hover.png) no-repeat;
+    background: url(images/tab-hover.png) no-repeat;
     color: #d06d6d;
 }
 
