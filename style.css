@@ -1,5 +1,5 @@
 body{
-    background-image: url(..//img/bg-image.jpg)
+    background-image: url(..//images/bg-image.jpg)
 }
 
 #container{                     
@@ -12,7 +12,7 @@ body{
 
 #profile{
     background-color: #f1d1ff;   
-    background-image: url(../img/bg4_img.jpg)               /*img and text*/
+    background-image: url(../images/bg4_img.jpg)               /*img and text*/
     background-position: centre bottom;
     background-repeat: repeat-x;
     overflow: hidden;
