@@ -1,49 +1,49 @@
-jQuery(document).ready(function(){
-    
-    
-    
-    
-    
-    
-    var $logo  =$('#logo');
-    if (location.href.indexOf("#") !=-1) {
-        $logo.show();
-        
-    }
-    
-    $('.menu .tabs a').click(function() {
-        $logo.fadeIn('slow');
-    });
-    
-    $('.tab-profile').click(function() {
-        $logo.fadeOut('slow');
-    
-    });
-   
-    
-    
-    
-    
-    
-    var $content         =$("#content");
-    
-    
-    $content.easytabs({
-        animate           : true,
-        updateHash        : false,
-        transitionIn      : 'slideDown',
-        transitionOut     : 'slideUp',
-        animationSpeed    : 600,
-        tabs              :".tmenu",
-        tabActiveClass    :'active',
-    });
-    
-    $content.find('.tabs li a').hover(
-    function() {
-         $(this).stop().animate({ marginTop: "-7px"},200);
-    },function(){
-         $(this).stop().animate({ marginTop: "0px"},300);
-    }
-    );
+const a = document.getElementById("profile-section");
+const b = document.getElementById("about-section");
+const c = document.getElementById("contact-section");
+const d = document.getElementById("skills-section");
 
-});
+function profile() {
+    b.style.display = 'none';
+    c.style.display = 'none';
+    d.style.display = 'none';
+    if (a.style.display === 'none') {
+        a.style.display = 'block';
+    } else {
+        a.style.display = 'none';
+    }
+}
+
+function about() {
+    a.style.display = 'none';
+    c.style.display = 'none';
+    d.style.display = 'none';
+    if (b.style.display === 'none') {
+        b.style.display = 'block';
+    } else {
+        b.style.display = 'none';
+    }
+}
+
+function contact() {
+    b.style.display = 'none';
+    a.style.display = 'none';
+    d.style.display = 'none';
+    if (c.style.display === 'none') {
+        c.style.display = 'block';
+    } else {
+        c.style.display = 'none';
+    }
+}
+
+function skills() {
+    b.style.display = 'none';
+    c.style.display = 'none';
+    a.style.display = 'none';
+    if (d.style.display === 'none') {
+        d.style.display = 'block';
+    } else {
+        d.style.display = 'none';
+    }
+}
+

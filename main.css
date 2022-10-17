@@ -13,7 +13,7 @@ body {
 i.fa.fa-instagram {
     margin-top: 50px;
     padding: 5px;
-    border-radius: 50%;
+    border-radius: 6px;
     margin: 7px;
     color: #f1d1ff;
     background-color: #d06d6d;
@@ -23,10 +23,13 @@ i.fa.fa-instagram {
 i.fa.fa-github {
     padding: 5px;
     background-color: #d06d6d;
-    border-radius: 50%;
+    border-radius: 6px;
+    /* padding-top: 90px; */
     margin: 7px;
     color: #f1d1ff;
     font-size: 30px;
+    /* border-color: #d06d6d;
+    border-width: 10px; */
 }
 
 i.fa.fa-linkedin {
@@ -34,7 +37,7 @@ i.fa.fa-linkedin {
     background-color: #d06d6d;
     margin: 7px;
     color: #f1d1ff;
-    border-radius: 50%;
+    border-radius: 6px;
     font-size: 30px;
 }
 
@@ -58,7 +61,9 @@ h1 {
     font-weight: 1000;
     font-size: 60px;
     color: #000000;
+    /* margin-top: 90px; */
     margin-left: 350px;
+    /* padding-top: 60px; */
     line-height: 20px;
     font-family: 'waterfall', sans-serif;
 }
@@ -72,6 +77,7 @@ h3 {
     line-height: 10px
 }
 
+
 .container1 {
     background-color: #d06d6d;
     margin-top: 50px;
@@ -79,21 +85,29 @@ h3 {
     border-radius: 6px;
 }
 
+/* .container1 .profile{
+    background-color:#f1f1f1;
+    height:40px;
+} */
+
 i.fa.fa-user {
     color: navajowhite;
     padding-top: 25px;
-    padding-left: 140px;
+    padding-left: 130px;
     font-size: 60px;
-
 }
 
-i.fa.fa-user:hover {
+a.tab-profile i {
     animation: bounce 2s infinite;
 }
 
 @keyframes bounce {
 
-    0%,20%,50%,80%,100% {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
 
     }
@@ -114,19 +128,11 @@ i.fa.fa-eercast {
     font-size: 60px;
 }
 
-i.fa.fa-eercast:hover {
-    animation: bounce 2s infinite;
-}
-
 i.fa.fa-telegram {
     color: navajowhite;
     padding-top: 25px;
     padding-left: 130px;
     font-size: 60px;
-}
-
-i.fa.fa-telegram:hover {
-    animation: bounce 2s infinite;
 }
 
 i.fa.fa-wpexplorer {
@@ -136,61 +142,61 @@ i.fa.fa-wpexplorer {
     font-size: 60px;
 }
 
-i.fa.fa-wpexplorer:hover {
-    animation: bounce 2s infinite;
-}
-
-#profile-section {
+.profile-section {
     background-color: #d06d6d;
     margin-left: 220px;
     margin-right: 220px;
     margin-top: 90px;
     border-radius: 6px;
-    padding: 20px;
-    font-family: 'waterfall', sans-serif;
-    font-weight: 850;
-    font-size: 30px;
-    display: none;
-}
-
-#about-section {
-    background-color: #d06d6d;
-    margin-left: 220px;
-    margin-right: 220px;
-    margin-top: 90px;
-    border-radius: 6px;
-    padding: 30px;
+    padding-left: 30px;
     font-family: 'waterfall', sans-serif;
     font-weight: 850;
     font-size: 30px;
     border-width: 30px;
-    display: none;
+    /* display: none; */
 }
 
-#contact-section {
+.about-section {
     background-color: #d06d6d;
     margin-left: 220px;
     margin-right: 220px;
     margin-top: 90px;
     border-radius: 6px;
-    padding: 30px;
     font-family: 'waterfall', sans-serif;
     font-weight: 850;
     font-size: 30px;
     border-width: 30px;
-    display: none;
+    padding-bottom: 20px;
+    text-align: center;
+    /* display: none; */
 }
 
-#skills-section {
+.contact-section {
     background-color: #d06d6d;
     margin-left: 220px;
     margin-right: 220px;
     margin-top: 90px;
     border-radius: 6px;
-    padding: 30px;
     font-family: 'waterfall', sans-serif;
     font-weight: 850;
     font-size: 30px;
     border-width: 30px;
-    display: none;
+    padding-bottom: 20px;
+    text-align: center;
+    /* display: none; */
+}
+
+.skills-section {
+    background-color: #d06d6d;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 90px;
+    border-radius: 6px;
+    font-family: 'waterfall', sans-serif;
+    font-weight: 850;
+    font-size: 30px;
+    border-width: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    /* display: none; */
 }

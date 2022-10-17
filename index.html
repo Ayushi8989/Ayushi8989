@@ -1,128 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <title>AYUSHI SINGH|PORTFOLIO</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO | AYUSHI SINGH</title>
+
     <link rel="stylesheet" href="style.css">
-       
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-        
+    <!--Fonts used-->
     <link href="https://fonts.googleapis.com/css2?family=Waterfall&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
-        
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        
 </head>
+
 <body>
-        <section id="container">
-            <header>
-                <div id="logo">
-                    <h2>Ayushi Singh</h2>
-                    <h4>Student of IIIT Kalyani</h4>
-                </div>
-                
-                <div class="social-icons-container">
-                    <span class="socials-text">
-                        <button class="pulse-button">
-                            <i class="fa fa-share"></i>
-                        </button>
-                    </span>
-                    
-                     <ul class="socialicons">
-                         <li><a href=""><i class="fa fa-github"></i></a></li>
-                         <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                         <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                     </ul> 
-                </div>
-            </header>
-               
-            <section id="content">
-                <div id="profile">
-                    <div class="about">
-                        <div class="photo-inner">
-                            <ul>
-                                <li><img src="images/dp_img.jpg" alt=""></img></li>
-                            </ul>
-                        </div>
-                        
-                         <h1>Hello, I am Ayushi Singh!</h1>
-                         <h3>-Student of IIIT Kalyani</h3>
-                         <br>
-                         
-                        
-                        
-                        
-                     </div>
-                     
-                     
-                </div>
-                
-                <nav class="menu">
-                    <ul class="tabs">
-                   
-                        <li class="tmenu">
-                            <a href="#profile" class="tab-profile active">
-                            <i><i class="fa fa-user"></i></i>
-                            PROFILE
-                            </a>
-                       
-                    
-                            <a href="#me">
-                            <i><i class="fa fa-eercast"></i></i>
-                            ABOUT ME
-                            </a>
-                       
-                        
-                  
-                            <a href="#contact">
-                            <i><i class="fa fa-telegram"></i></i>
-                            CONTACT
-                            </a>
-                     
-                        
-                
-                            <a href="#skills">
-                            <i><i class="fa fa-wpexplorer"></i></i>
-                            skills
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                
-                <section id="me">
-                    <p>
-                        
-                </section>
-                 <section id="contact">
-                    <p>
-                       
-                    </p>
-                </section>
-                 <section id="skills">
-                    <p>
-                        
-                    </p>
-                </section>
-              
-            </section>
-               
-               <footer>
-                   <div class="copyright">Copyright &copy; 2021 Ayushi Singh</div>
-               </footer>
-                
-    
-            
-            
-            
-        </section>
-        
-        
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>      
+    <!--social icons-->
+    <div class="social-icons">
+        <a href="">
+            <i class="fa fa-github"></i>
+        </a>
+        <a href="">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="">
+            <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
+
+    <div class="container">
+        <h1>Hello, I am Ayushi Singh!</h1>
+        <h3>-Student of IIIT Kalyani</h3>
+        <div class="content">
+            <img src="images/_image.png" </div>
+            <div class="container1">
+                <i class="fa fa-user" onclick="profile()"></i>
+                <i class="fa fa-eercast" onclick="about()"></i>
+                <i class="fa fa-telegram" onclick="contact()"></i>
+                <i class="fa fa-wpexplorer" onclick="skills()"></i>
+            </div>
+        </div>
+    </div>
+
+    <div id="profile-section">
+        <h1>Profile</h1>
+        <h2>Education</h2>
+        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum illo perferendis ut, tenetur odit
+            cumque explicabo adipisci ex officia neque aut voluptate facilis maxime amet laudantium ipsum molestias
+            aliquam nesciunt.</h2>
+        <h2>Awards and Honors</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorem cum ex odio velit harum odit quae
+            veritatis impedit reprehenderit.
+        </h2>
+    </div>
+
+    <div id="about-section">
+        <h1>About</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae ea optio ab libero eius vel distinctio
+            incidunt, qui alias quia quo impedit tempore quisquam praesentium, illum modi quis. Iusto, nobis?</h2>
+    </div>
+
+    <div id="contact-section">
+        <h1>Contact</h1>
+        <h2>Gmail: xyz@gmail.com</h2>
+        <h2>Contact number: 1234567890</h2>
+    </div>
+
+    <div id="skills-section">
+        <h1>Skills</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus hic autem ut deserunt eius ex.
+            Placeat, neque eum inventore voluptatibus ipsum quae autem quibusdam fugiat quaerat sequi labore laborum!
+        </h2>
+    </div>
+
     <script src="main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
